@@ -5,9 +5,9 @@ const PORT = 3000;
 
 app.get('/tareas', (req, res) => {
 const tareas = [
-    { id: 1, description: 'Hacer la compra', completed: false },
-    { id: 2, description: 'Estudiar para el examen', completed: true },
-    { id: 3, description: 'Ir al gimnasio', completed: false }
+    { id: 1, description: 'Hacer la compra', completed: true },
+    { id: 2, description: 'Estudiar para el examen', completed: false },
+    { id: 3, description: 'Ir al gimnasio', completed: true }
 ];
 
 res.json(tareas);
